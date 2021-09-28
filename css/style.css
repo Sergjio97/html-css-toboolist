@@ -1,6 +1,25 @@
-/* ***common-rules*** */
+/* #common-rules# */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.container-md{
+    width: 80%;
+    margin: auto;
+}
+ 
+/* #header# */
+/* #/header# */
+
+/* #main# */
+/* #/main# */
+
+/* #footer# */
+/* #/footer# */
