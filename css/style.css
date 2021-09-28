@@ -68,7 +68,7 @@ h1, img{
 /* #/sezione nav# */
 .todolist{
     width: 60%;
-    margin: 0px 212px 5px 212px;
+    margin: 0px 212px 0px 212px;
     padding: 25px 0px 5px 50px;
     background-color: white;
     border-radius: 3px;
@@ -106,6 +106,17 @@ h1, img{
 }
 /* #sezione todolist# */
 
+/* #sezione today# */
+.today{
+    width: 60%;
+    margin: 0px 212px 0px 212px;
+    padding: 25px 0px 5px 50px;
+    background-color: white;
+    border-radius: 3px;
+    line-height: 1.6;
+}
+/* #/sezione today# */
+
 /* #lista pulsanti# */
 #editorial{
     display: inline-block;
@@ -116,6 +127,37 @@ h1, img{
     border: 1px solid lightskyblue;
     border-radius: 10px;
 }
+
+#goals{
+    display: inline-block;
+    padding: 5px;
+    background-color: violet;
+    color: white;
+    font-size: 10px;
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+
+#recruiting{
+    display: inline-block;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+#mobile{
+    display: inline-block;
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    font-size: 10px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+
 /* #/lista pulsanti# */
 
 
