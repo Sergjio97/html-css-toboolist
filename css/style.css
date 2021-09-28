@@ -117,6 +117,17 @@ h1, img{
 }
 /* #/sezione today# */
 
+/* #sezione upcoming# */
+.upcoming{
+    width: 60%;
+    margin: 0px 212px 0px 212px;
+    padding: 25px 0px 5px 50px;
+    background-color: white;
+    border-radius: 3px;
+    line-height: 1.6;
+}
+/* #/sezione upcoming */
+
 /* #lista pulsanti# */
 #editorial{
     display: inline-block;
@@ -158,6 +169,25 @@ h1, img{
     border-radius: 10px;
 }
 
+#website{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(248, 176, 248);
+    color: white;
+    font-size: 10px;
+    border: 1px solid rgb(248, 176, 248);
+    border-radius: 10px;
+}
+
+#sales{
+    display: inline-block;
+    padding: 5px;
+    background-color: lightgreen;
+    color: white;
+    font-size: 10px;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+}
 /* #/lista pulsanti# */
 
 
