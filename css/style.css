@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgba(175, 171, 171, 0.2);
+}
+
 .container{
     width: 100%;
     margin: auto;
-    padding: 10px 15px;
 }
 
 .container-md{
@@ -17,6 +20,13 @@
 }
  
 /* #header# */
+.container-header{
+    width: 100%;
+    margin: auto;
+    padding: 10px 15px;
+    background-color: white;
+}
+
 h1, img{
     display: inline-block;
     vertical-align: middle;
@@ -26,6 +36,37 @@ h1, img{
 /* #/header# */
 
 /* #main# */
+/* #prima sezione# */
+.container-nav{
+    width: 60%;
+    margin: 40px 212px 5px 212px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+#task{
+    display: inline-block;
+    margin: 10px 0px 5px 50px;
+    padding: 8px;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 10px;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+
+}
+
+#section{
+    display: inline-block;
+    padding: 8px;
+    color: lightgray;
+    font-size: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+/* #/prima sezione# */
+
+
 /* #/main# */
 
 /* #footer# */
